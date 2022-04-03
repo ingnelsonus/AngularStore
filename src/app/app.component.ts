@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'store';
+  title = 'store faneus';
+
+  getName():void{
+    console.log('Hola faneusCode');
+  }
+
 }
