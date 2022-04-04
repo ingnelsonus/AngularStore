@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { delay, switchMap, tap } from 'rxjs/operators';
 import { Details, Order } from 'src/app/shared/interfaces/order.interface';
-import { Store } from 'src/app/shared/Interfaces/stores.interface';
+import { Store } from 'src/app/shared/interfaces/stores.interface';
 import {DataService} from 'src/app/shared/services/data.service';
 import { Router } from '@angular/router';
 import { ProductsService } from '../products/services/products.service';
